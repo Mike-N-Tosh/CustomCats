@@ -11,7 +11,7 @@
 $data['module']['name'] = "customcats";
 $data['module']['displayname'] = "Custom Categories";
 $data['module']['description'] = "Allows you to set new features for specific categories.";
-$data['module']['version'] = "v2.2";
+$data['module']['version'] = "v2.3";
 $data['module']['admin_capable'] = "1";
 $data['module']['user_capable'] = "0";
 
