@@ -12,3 +12,13 @@ Upload the folder customcats to your modules directory.
 ## Requirements 
 
  * Min 68 Classifieds v4.1.0 
+
+## Errors 
+
+Q. I have installed the module but I know get an error like this: "Notice: Query failed: Unknown column 'ccTemplate' in 'field list' SQL: SELECT ccTemplate, ccnoprice FROM"
+
+A. You may want to manually alter the table by running these two queries: 
+<pre>
+	ALTER TABLE class_categories` ADD `ccTemplate` VARCHAR( 255 ) NOT NULL;
+	ALTER TABLE class_categories ADD `ccnoprice` CHAR( 1 ) NOT NULL;
+</pre>
